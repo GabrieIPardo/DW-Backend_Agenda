@@ -1,0 +1,25 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Aprendizagem de Node - Crud de uma agenda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "agenda",
+    "consulta"
+  ],
+  "author": "Gabriel Pardo de Sena",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
